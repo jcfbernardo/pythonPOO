@@ -27,5 +27,5 @@ while tentativas > 0:
             tentativas = tentativas - 1
             print('Você agora tem {} tentativas'.format(tentativas))
     else:
-        print('\nPARABÉNS! VOCÊ ACERTOU!\nO número secreto é {}' .format(numero_secreto))
+        print('\nPARABÉNS! VOCÊ ACERTOU!\nO número secreto é {}'.format(numero_secreto))
         break
